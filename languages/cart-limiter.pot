@@ -1,0 +1,453 @@
+# Copyright (C) 2022 GrandPlugins
+# This file is distributed under the same license as the Woo Cart Limiter [[GrandPlugins]] plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Cart Limiter [[GrandPlugins]] 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gpls-wwclr-woo-cart-limiter\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-31T12:30:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: cart-limiter\n"
+
+#. Plugin Name of the plugin
+msgid "Woo Cart Limiter [[GrandPlugins]]"
+msgstr ""
+
+#. Description of the plugin
+msgid "Get full control over what can clients add to cart, restrict Cart Contents by type, quantity, conditions and more..."
+msgstr ""
+
+#. Author of the plugin
+msgid "GrandPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://grandplugins.com"
+msgstr ""
+
+#: includes/pages/SettingsPage.php:38
+msgid "Cart Limiter"
+msgstr ""
+
+#: includes/pages/SettingsPage.php:39
+#: includes/SingleLimiter.php:200
+msgid "Cart Limiter [GrandPlugins]"
+msgstr ""
+
+#: includes/pages/SettingsPage.php:47
+msgid "Totals Limits"
+msgstr ""
+
+#: includes/pages/SettingsPage.php:51
+msgid "Quantity Limits"
+msgstr ""
+
+#: includes/pages/SettingsPage.php:55
+msgid "Products Limits"
+msgstr ""
+
+#: includes/pages/SettingsPage.php:73
+msgid "Search products..."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:16
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:17
+msgid "Enable Cart Limiter"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:22
+msgid "Min Cart Total"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:23
+msgid "Min allowed cart total"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:24
+msgid "Disable proceeding to checkout if the cart totals is less than this number. set it 0 to disable."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:37
+msgid "Min Cart Total Notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:38
+msgid "Min Cart notice message for the Cart total limitation"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:43
+msgid "Example: Minimum allowed cart total is $50"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:49
+msgid "Max Cart Total"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:50
+msgid "Max allowed cart total"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:51
+msgid "Disable adding to cart after reaching an amount of cart total. set it 0 to disable."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:63
+msgid "Max Cart Total Notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:64
+msgid "Cart notice message for the Cart total limitation"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:69
+msgid "Example: Maximum allowed cart total is $500"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:74
+msgid "Max Products Number"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:75
+msgid "Max allowed number of products"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:76
+msgid "Disable adding to cart after reaching a number of products in cart. set it 0 to disable."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:88
+msgid "Products Number Notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:89
+msgid "Cart notice message for the maximum products number limitation"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:94
+msgid "Example: Maximum allowed products number in cart is 7"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:99
+msgid "Max Total Quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:100
+msgid "Max allowed number of cart total quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:101
+msgid "Disable adding to cart after reaching a number of quantity for the sum of all cart items. set it 0 to disable."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:114
+msgid "Total Quantity Notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:115
+msgid "Cart notice message for the maximum total quantity in cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:120
+msgid "Example: Maximum allowed total quantity in cart is 20"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:131
+msgid "Global Min Quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:132
+msgid "Force Min quantity allowed on all products. set it 0 to disable."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:144
+msgid "Min Quantity Notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:145
+msgid "Cart notice message for the min quantity limitation"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:150
+msgid "Example: Minimum allowed items to purchase from any product is 5"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:155
+msgid "Global Max Quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:156
+msgid "Force Max quantity allowed on all products. set it 0 to disable."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:168
+msgid "Max Quantity Notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:169
+msgid "Cart notice message for the max quantity limitation"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:174
+msgid "Example: You can buy up to 5 items from any product"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:179
+msgid "Quantity field"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:180
+msgid "Add min and max quantity limits to products quantity input field"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:191
+msgid "Custom Quantity Limits"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:194
+msgid "Add custom quantity limits to products in bulk."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:195
+#: includes/settings/fields/main-settings-fields.php:321
+#: includes/settings/fields/main-settings-fields.php:535
+msgid "Add Limit Rule"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:201
+#: includes/settings/fields/main-settings-fields.php:330
+#: includes/settings/fields/main-settings-fields.php:417
+#: includes/settings/fields/main-settings-fields.php:545
+#: includes/settings/fields/main-settings-fields.php:597
+msgid "Select Type"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:206
+#: includes/settings/fields/main-settings-fields.php:335
+#: includes/settings/fields/main-settings-fields.php:423
+#: includes/settings/fields/main-settings-fields.php:550
+#: includes/settings/fields/main-settings-fields.php:603
+msgid "Select Products Directly"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:216
+#: includes/settings/fields/main-settings-fields.php:345
+#: includes/settings/fields/main-settings-fields.php:433
+#: includes/settings/fields/main-settings-fields.php:560
+#: includes/settings/fields/main-settings-fields.php:612
+msgid "Select By Taxonomies"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:251
+msgid "Min Quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:252
+msgid "Minimum Quantity allowed to add the product to the cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:266
+msgid "Max Quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:267
+msgid "Maximum Quantity allowed to be added to the cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:281
+msgid "Min quantity notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:282
+msgid "Notice message for minimum quantity limitation."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:284
+msgid "Example: Minimum items to purchase from Accessories Category is 5"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:298
+msgid "Max quantity notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:299
+msgid "Notice message for maximum quantity limitation."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:304
+msgid "Example: You can add up to 5 items from T-shirts products"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:317
+msgid "Products Conditional Quantity Limits"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:319
+msgid "add quantity limits to products based on the quantity of other products"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:326
+msgid "Set Min or Max Quantity limit for selected products 🡺"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:381
+#: includes/settings/fields/main-settings-fields.php:475
+msgid "Limit Type"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:382
+msgid "Set limit Type [ Min - Max ]"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:385
+msgid "Minimum"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:386
+msgid "Maximum"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:399
+#: includes/settings/fields/main-settings-fields.php:494
+msgid "Limit Quantity"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:400
+msgid "Limit Quantity allowed to be added to the cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:414
+msgid "based on Min or Max of these products in cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:476
+msgid "Set limit Type [ at least - at most ]"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:479
+msgid "At least"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:480
+msgid "At most"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:495
+msgid "Limit Quantity exist in the cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:510
+#: includes/settings/fields/main-settings-fields.php:652
+msgid "Cart limitation notice"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:511
+#: includes/settings/fields/main-settings-fields.php:653
+msgid "Cart notice message for the limitation"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:517
+msgid "Example: You can't add more than 5 items from accessories products if you have more than 3 items from hoodies products in cart"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:531
+msgid "Products Add To Cart Limitations"
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:533
+msgid "Disable adding to cart selected products from one side if selected products from the other side in the cart."
+msgstr ""
+
+#: includes/settings/fields/main-settings-fields.php:659
+msgid "Example: You can't buy music products with t-shirts products."
+msgstr ""
+
+#: includes/settings/MainSettings.php:180
+msgid "Attributes"
+msgstr ""
+
+#: includes/settings/MainSettings.php:196
+msgid " Taxonomies Match Type"
+msgstr ""
+
+#: includes/settings/MainSettings.php:198
+#: includes/settings/MainSettings.php:241
+#: includes/settings/MainSettings.php:244
+msgid "Any"
+msgstr ""
+
+#: includes/settings/MainSettings.php:199
+#: includes/settings/MainSettings.php:242
+#: includes/settings/MainSettings.php:245
+msgid "All"
+msgstr ""
+
+#: includes/settings/MainSettings.php:221
+msgid "Name: "
+msgstr ""
+
+#: includes/settings/MainSettings.php:238
+msgid "Match Type"
+msgstr ""
+
+#: includes/SingleLimiter.php:136
+#: includes/SingleLimiter.php:211
+msgid "Exclude Global"
+msgstr ""
+
+#: includes/SingleLimiter.php:137
+#: includes/SingleLimiter.php:212
+msgid "Exclude the product from global quantity limits"
+msgstr ""
+
+#: includes/SingleLimiter.php:145
+#: includes/SingleLimiter.php:221
+msgid "Min Limit"
+msgstr ""
+
+#: includes/SingleLimiter.php:146
+#: includes/SingleLimiter.php:222
+msgid "Min limit allowed to buy the product. set 0 to disable"
+msgstr ""
+
+#: includes/SingleLimiter.php:156
+#: includes/SingleLimiter.php:233
+msgid "Min Limit Message"
+msgstr ""
+
+#: includes/SingleLimiter.php:157
+#: includes/SingleLimiter.php:234
+msgid "Cart notice message for the min limit."
+msgstr ""
+
+#: includes/SingleLimiter.php:165
+#: includes/SingleLimiter.php:243
+msgid "Max Limit"
+msgstr ""
+
+#: includes/SingleLimiter.php:166
+#: includes/SingleLimiter.php:244
+msgid "Max limit allowed to buy the product. set 0 to disable"
+msgstr ""
+
+#: includes/SingleLimiter.php:176
+#: includes/SingleLimiter.php:255
+msgid "Max Limit Message"
+msgstr ""
+
+#: includes/SingleLimiter.php:177
+#: includes/SingleLimiter.php:256
+msgid "Cart notice message for the max limit."
+msgstr ""
+
+#. translators: %s Cart Limit Message Notice
+#: includes/utils/LimiterNoticesUtils.php:59
+msgid "%s"
+msgstr ""
